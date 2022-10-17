@@ -2,16 +2,19 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 
-
-
-import App from "./Live-Search-Weather-ProjectMajor.js"
-
+import MainApp from "./Live-Search-Weather-App/MainApp.jsx"
 
 ReactDom.render( 
-                
-        <App/>
+
+                <MainApp/>
 , 
+
 
 document.getElementById("root")
 
+
 );
+
+
+export default MainApp;
+
